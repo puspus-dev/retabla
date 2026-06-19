@@ -23,9 +23,9 @@
 	};
 
 	const githubLinks = {
-		app: 'https://github.com/QwIT-Development/firka',
-		extension: 'https://github.com/QwIT-Development/firka-extension',
-		legacy: 'https://github.com/QwIT-Development/app-legacy'
+		app: 'https://github.com/ExtenderTeam/retabla-app',
+		extension: 'https://github.com/ExtenderTeam/retabla-extension',
+		legacy: 'https://github.com/ExtenderTeam/retabla-app'
 	};
 
 	const staticLinks = {
