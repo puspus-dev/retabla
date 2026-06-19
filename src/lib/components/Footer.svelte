@@ -33,7 +33,7 @@
 			"94edbcd38b918e8aff114c2801be11f3",
 			"920ea4fcc04abe6955ac6d42e88f23eb",
 			"32c93b147a6f8bb54416cb0694f469c6",
-			"/rtd56f53aa-2d3c-4143-b7a6-c7c914d606c5.png"
+			"rtd56f53aa-2d3c-4143-b7a6-c7c914d606c5"
 		]
 
 		if (Math.random() < 0.05 && !htmlElement.classList.contains('dark-mode')) {
