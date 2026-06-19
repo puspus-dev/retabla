@@ -42,13 +42,13 @@
 	</div>
 
 	<div class="cards-grid">
-		<a href="mailto:support@firka.app" class="card tiny-shadow" aria-label="Email support">
+		<a href="mailto:support@retabla.nhely.hu" class="card tiny-shadow" aria-label="Email support">
 			<div class="card-icon">
 				<span class="ri-mail-line"></span>
 			</div>
 			<div class="card-content">
 				<h2 class="font_header_18px">Email</h2>
-				<p class="font_body_14px_regular">support@firka.app</p>
+				<p class="font_body_14px_regular">support@retabla.nhely.hu</p>
 				<span class="card-cta font_body_14px_regular">Üzenetet küldök →</span>
 			</div>
 		</a>
