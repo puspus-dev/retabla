@@ -16,7 +16,7 @@ export const GET: RequestHandler = async () => {
 	try {
 		console.log(`ext: miss!`);
 
-		const extensionURL = 'https://api.github.com/repos/QwIT-Development/firka-extension/releases';
+		const extensionURL = 'https://api.github.com/repos/ExtenderTeam/retabla-extension/releases';
 		const req = await fetch(extensionURL);
 		if (!req.ok) return new Response('Failed to fetch releases', { status: 502 });
 

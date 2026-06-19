@@ -16,17 +16,13 @@
 					title: 'ALAP',
 					items: [
 						'Bejelentkezési képernyő',
-						'Kezdőlapon tanórákról információ',
-						'Jegyek száma és aránya',
-						'Órarend',
-						'Órarend havi nézet',
-						'Órarend beállításai',
+						
 					]
 				},
 				{
 					title: "Extrák",
 					items: [
-						'App ikonok',
+						
 					]
 				}
 			]
@@ -41,8 +37,11 @@
 					title: null,
 					items: [
 						'Kezdőlap',
+						'Órarend',
+						'Jegyek',
+						'Hiányzások',
 						'Órarendben dolgozatok, óra témája, stb.',
-						'"Tőbb" menüpont',
+						'"Több" menüpont',
 						'Mulasztások',
 						'Beállítások',
 						'Navigációs sáv testreszabása',
@@ -66,7 +65,8 @@
 						'Jegyekhez grafikon',
 						'Értesítések',
 						'Extrák',
-						'Naptár szinkronizálása'
+						'Naptár szinkronizálása',
+						'Jegyzet'
 					]
 				}
 			]

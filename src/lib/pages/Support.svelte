@@ -10,7 +10,7 @@
 		{
 			question: 'Hiányoznak vagy hibásak a jegyeim.',
 			answer:
-				'A Firka a KRÉTA rendszerből szinkronizálja az adatokat. Ha hiányos adatokat látsz, ellenőrizd a KRÉTA webes felületen is. Ha ott helyes, próbálj meg frissíteni az alkalmazásban (húzd le az oldalt).'
+				'A reTábla a KRÉTA rendszerből szinkronizálja az adatokat. Ha hiányos adatokat látsz, ellenőrizd a KRÉTA webes felületen is. Ha ott helyes, próbálj meg frissíteni az alkalmazásban (húzd le az oldalt).'
 		},
 		{
 			question: 'Az alkalmazás összeomlik vagy hibát jelez.',
@@ -20,11 +20,11 @@
 		{
 			question: 'Hogyan lehet törölni a fiókomat?',
 			answer:
-				'A Firka nem tárol fiókadatokat a saját szerverein — közvetlenül a KRÉTA rendszeren keresztül működik. A Firka alkalmazás törlésével minden helyi adat eltávolításra kerül.'
+				'A reTábla nem tárol fiókadatokat a saját szerverein — közvetlenül a KRÉTA rendszeren keresztül működik. A reTábla alkalmazás törlésével minden helyi adat eltávolításra kerül.'
 		},
 		{
-			question: 'Melyik eszközökön érhető el a Firka?',
-			answer: 'A Firka jelenleg iOS és Android platformokon érhető el.'
+			question: 'Melyik eszközökön érhető el a reTábla?',
+			answer: 'A reTábla jelenleg Android platformon érhető el.'
 		}
 	];
 
@@ -54,7 +54,7 @@
 		</a>
 
 		<a
-			href="https://discord.gg/GGEUTJj5P7"
+			href="https://discord.gg/a5HQE3JRD4"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="card tiny-shadow"
@@ -71,7 +71,7 @@
 		</a>
 
 		<a
-			href="https://github.com/QwIT-Development"
+			href="https://github.com/ExtenderTeam"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="card tiny-shadow"

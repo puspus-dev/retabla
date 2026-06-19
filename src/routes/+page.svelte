@@ -5,12 +5,10 @@
 <script lang="ts">
     import Downloads from '$lib/pages/Downloads.svelte';
     import Roadmap from '$lib/pages/Roadmap.svelte';
-	import Supporters from '$lib/pages/Supporters.svelte';
 </script>
 
 <main>
 <Downloads />
-<Supporters />
 <Roadmap />
 </main>
 

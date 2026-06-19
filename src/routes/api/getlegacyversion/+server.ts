@@ -16,7 +16,7 @@ export const GET: RequestHandler = async () => {
 	try {
 		console.log(`legacy: miss!`);
 
-		const legacyURL = 'https://api.github.com/repos/QwIT-Development/app-legacy/releases';
+		const legacyURL = 'https://api.github.com/repos/ExtenderTeam/retabla-app/releases';
 		const req = await fetch(legacyURL);
 		if (!req.ok) return new Response('Failed to fetch releases', { status: 502 });
 

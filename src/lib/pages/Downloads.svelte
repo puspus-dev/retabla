@@ -6,7 +6,7 @@
 	import { checkCache, downloadsClient } from '$lib/downloadsClient';
 
 	let showTooltip = false;
-	let legacy = false;
+	let legacy = true;
 
 	const appDownloadLinks = {
 		testflight: 'https://testflight.apple.com/join/NdzF8b84',
@@ -71,11 +71,8 @@
 		</p>
 	</div>
 	<div class="title">
-		<h2 class="font_web_h2">Töltsd le a Firka Naplót</h2>
-		<p class="font_body_16px_regular">
-			A mobil app elérhető almás és robotos telefonokon is, és a kedvenc böngésződbe pedig
-			letöltheted a bővítményt.
-		</p>
+		<h2 class="font_web_h2">Töltsd le a reTáblát!</h2>
+		
 	</div>
 	<div class="cards">
 		<div class="card tiny_shadow">
@@ -107,13 +104,14 @@
 				<div class="section-buttons">
 					<Buttons label="F-Droid" type="small_primary"
 							 href={selectedAppLinks.fdroid}
-							 icon="/android.svg" disabled={true} ></Buttons>
+							 icon="ri:android-fill" 
+							 disabled={true} ></Buttons>
 					<Buttons
-						label="Google Play"
+						label="ApkPure"
 						type="small_secondary"
-						icon="ri:google-play-fill"
-						disabled={true}
-					></Buttons>
+						icon="/android.svg"
+						disabled={true} ></Buttons>
+					
 				</div>
 				<div class="section-buttons">
 					<Buttons
@@ -122,14 +120,21 @@
 						type="small_secondary"
 						icon="/apk.svg"
 						href={selectedAppLinks.arm64}
-						disabled={!legacy} ></Buttons>
+						disabled={true} ></Buttons>
 					<Buttons
 						id="armeabi"
 						label="armeabi.apk"
 						type="small_secondary"
 						icon="/apk.svg"
 						href={selectedAppLinks.armeabi}
-						disabled={!legacy} ></Buttons>
+						disabled={true} ></Buttons>
+					<Buttons
+						id="apk"
+						label="release.apk"
+						type="small_secondary"
+						icon="/apk.svg"
+						href={selectedAppLinks.apk}
+						disabled={true} ></Buttons>
 				</div>
 			</div>
 			<div class="card-section">
@@ -140,6 +145,13 @@
 						type="small_primary"
 						icon="/testflight.svg"
 						href={selectedAppLinks.testflight} 
+						disabled={true} ></Buttons>
+						<Buttons
+						id="ipa"
+						label="apple.ipa"
+						type="small_secondary"
+						icon="/testflight.svg"
+						href={selectedAppLinks.ipa}
 						disabled={true} ></Buttons>
 				</div>
 			</div>
@@ -163,6 +175,7 @@
 						type="small_secondary"
 						icon="ri:chrome-fill"
 						href={staticLinks.chromestore}
+						disabled="true"
 					></Buttons>
 				</div>
 			</div>
@@ -181,7 +194,7 @@
 			<div class="card-section">
 				<p class="font_header_14px">Forráskód</p>
 				<div class="section-buttons">
-					<Buttons label="GitHub" href={githubLinks.extension} icon="ri:github-fill"></Buttons>
+					<Buttons label="GitHub" href={githubLinks.extension} icon="ri:github-fill" disabled="true"></Buttons>
 				</div>
 			</div>
 		</div>

@@ -8,13 +8,13 @@
 	const links = [
 		{ icon: 'ri:bluesky-fill', href: 'https://bsky.app/profile/firka.app', label: 'Bluesky' },
 		{ icon: 'ri:tiktok-fill', href: 'https://www.tiktok.com/@firka.naplo', label: 'TikTok' },
-		{ icon: 'ri:discord-fill', href: 'https://discord.gg/UA48Zc3cYz', label: 'Discord' },
+		{ icon: 'ri:discord-fill', href: 'https://discord.gg/a5HQE3JRD4', label: 'Discord' },
 		{
 			icon: 'ri:instagram-line',
 			href: 'https://www.instagram.com/firka.naplo',
 			label: 'Instagram'
 		},
-		{ icon: '/yoursitee.svg', href: 'https://yoursit.ee/firka', label: 'YourSitee' }
+		{ icon: '/yoursitee.svg', href: 'https://yoursit.ee/puspus', label: 'YourSitee' }
 	];
 
 	function formatIconClass(iconName: string): string {
