@@ -194,7 +194,7 @@
 			<div class="card-section">
 				<p class="font_header_14px">Forráskód</p>
 				<div class="section-buttons">
-					<Buttons label="GitHub" href={githubLinks.extension} icon="ri:github-fill" disabled="true"></Buttons>
+					<Buttons label="GitHub" href={githubLinks.extension} icon="ri:github-fill" disabled="false"></Buttons>
 				</div>
 			</div>
 		</div>
